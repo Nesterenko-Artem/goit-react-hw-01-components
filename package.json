@@ -1,7 +1,6 @@
 {
   "name": "react-homework-template",
   "version": "0.1.0",
-  "private": true,
   "homepage": "https://github.com/Nesterenko-Artem/goit-react-hw-01-components/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
