@@ -1,17 +1,24 @@
-import {Profile} from './components/Profile';
-import user from 'user';
+// import {Profile} from './components/Profile/Profile';
+import { StatItem } from './components/Statistics/StatItem';
+
+// import user from './path/user.json';
+import stats from './path/stats.json';
 
 export const App = () => {
   return (
-    <> 
-     <Profile
+    <>
+      <StatItem 
+      label={stats.label} 
+      percentage={stats.percentage} 
+      />
+
+      {/* <Profile
       username={user.username}
       tag={user.tag}
       location={user.location}
       avatar={user.avatar}
       stats={user.stats}
-    />
+    /> */}
     </>
-   
   );
 };
