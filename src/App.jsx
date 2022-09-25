@@ -1,8 +1,8 @@
 // import {Profile} from './components/Profile/Profile';
-import { StatList } from './components/Statistics/StatList';
+// import { StatList } from './components/Statistics/StatList';
 
 // import user from './path/user.json';
-import stats from './path/stats.json';
+// import stats from './path/stats.json';
 
 
 export const App = () => {
@@ -17,8 +17,10 @@ export const App = () => {
         stats={user.stats}
       /> */}
       <h1>Task 2</h1>
-
-      <StatList title="Upload stats" stats={stats} />
+      {/* <StatList title="Upload stats" stats={stats} /> */}
+      <h1>Task 3
+        
+      </h1>
     </>
   );
 };
