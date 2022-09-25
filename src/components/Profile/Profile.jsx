@@ -19,7 +19,6 @@ export const Profile = ({ username, tag, location, avatar, stats }) => {
         <Text >@{tag}</Text>
         <Text >{location}</Text>
       </Card>
-
       <List>
         <StatsItem>
           <Label >Followers</Label>

@@ -2,8 +2,8 @@
 import { StatItem } from './components/Statistics/StatItem';
 
 // import user from './path/user.json';
-import stats from './path/stats.json';
-
+import stats from './path/stats';
+console.log(stats)
 export const App = () => {
   return (
     <>
@@ -11,8 +11,8 @@ export const App = () => {
       label={stats.label} 
       percentage={stats.percentage} 
       />
-
-      {/* <Profile
+{/* 
+      <Profile
       username={user.username}
       tag={user.tag}
       location={user.location}
