@@ -7,6 +7,7 @@ export const Wraper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  
   // color: rgb(104, 102, 102);
   border: 1px solid rgb(117, 116, 116);
   border-radius: 10px;
@@ -29,7 +30,7 @@ export const Avatar = styled.img`
   // background-color: rgb(220, 215, 215);
   border: 1px solid rgb(117, 116, 116);
 `;
- export const Text = styled.p`
+export const Text = styled.p`
    font-size: 22px;
    line-height: 1.2;
    font-weight: 500;
@@ -45,7 +46,7 @@ export const List = styled.ul`
   background-color: rgb(220, 215, 215);
   border-top: 1px solid rgb(117, 116, 116);  
 `;
- export const StatsItem = styled.li`
+export const StatsItem = styled.li`
    flex-basis: calc(100% / 3);
    display: flex;
    flex-direction: column;
@@ -55,11 +56,11 @@ export const List = styled.ul`
    padding-bottom: 20px;
    gap: 10px;
  `;
-  export const Label = styled.span`
+export const Label = styled.span`
     font-size: 14px;
     line-height: 1.2;
   `;
-  export const Quantity = styled.span`
+export const Quantity = styled.span`
     font-size: 18px;
     line-height: 1.2;
     font-weight: 500;
