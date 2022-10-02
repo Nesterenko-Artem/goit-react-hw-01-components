@@ -5,7 +5,7 @@ import { FriendItem } from './FriendItem';
 export const FriendList = ({ friends }) => {
   return (
     <Wraper>
-      <ul className="friend-list">
+      <ul>
         {friends.map(friend => (
           <Item key={friend.id}>
             <FriendItem friend={friend} />
