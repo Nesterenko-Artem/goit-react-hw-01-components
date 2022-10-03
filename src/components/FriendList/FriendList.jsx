@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { Wraper, Item } from './FriendList.styled';
+import { Wraper } from './FriendList.styled';
 import { FriendItem } from './FriendItem';
 
 export const FriendList = ({ friends }) => {
@@ -7,9 +7,12 @@ export const FriendList = ({ friends }) => {
     <Wraper>
       <ul>
         {friends.map(friend => (
-          <Item key={friend.id}>
-            <FriendItem friend={friend} />
-          </Item>
+          <FriendItem
+            avatar={friend.avatar}
+            name={friend.name}
+            isOnline={friend.isOnline}
+            key={friend.id}
+          />
         ))}
       </ul>
     </Wraper>
@@ -19,3 +22,4 @@ export const FriendList = ({ friends }) => {
 FriendList.propTypes = {
   friends: PropTypes.array.isRequired,
 };
+// friend={friend}
